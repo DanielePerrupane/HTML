@@ -1,70 +1,85 @@
-body, html {
-    margin: 0; /* Rimosso margin errato */
+body,
+html {
+    margin: 0;
+    /* Rimosso margin errato */
     padding: 0;
-    height: 100%; /* Assicura che il body copra l'intera altezza della finestra */
+    height: 100%;
+    /* Assicura che il body copra l'intera altezza della finestra */
 }
 
 .box {
     display: flex;
-    height: 100%; /* Fa sì che la box occupi l'intera altezza */
-    padding: 0; /* Rimosso padding errato */
+    height: 100%;
+    /* Fa sì che la box occupi l'intera altezza */
+    padding: 0;
+    /* Rimosso padding errato */
 }
 
 .vertical-line {
     width: 1px;
-     /* Altezza della linea che copre l'intera altezza del contenitore */
+    /* Altezza della linea che copre l'intera altezza del contenitore */
     background-color: gray;
-    margin: 0 5px; /* Aggiunge un po' di spazio a sinistra e a destra della linea */
+    margin: 0 5px;
+    /* Aggiunge un po' di spazio a sinistra e a destra della linea */
     margin-top: 3px;
     margin-bottom: 3px;
-    
+
 }
 
 .left {
     width: 28%;
-    height: 100%; /* Altezza fissa per la sezione sinistra */
+    height: 100%;
+    /* Altezza fissa per la sezione sinistra */
     display: flex;
     flex-direction: column;
-    
+
     align-items: center;
-    
-     
+
+
 }
 
 #fotoprofilo {
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    
+
 }
 
 .right {
     width: 71%;
-    height: 100%; /* Altezza fissa per far scorrere il contenuto */
-    overflow-y: auto; /* Abilita lo scrolling verticale */
-    background-color: #ffffff; /* Colore di sfondo opzionale */
+    height: 100%;
+    /* Altezza fissa per far scorrere il contenuto */
+    overflow-y: auto;
+    /* Abilita lo scrolling verticale */
+    background-color: #ffffff;
+    /* Colore di sfondo opzionale */
 }
 
 .fotoprofilo {
     width: 90%;
     margin-top: 5px;
+    
+    margin-left: 6px;
 }
-.collegamenti {
-margin-top: 5px;
-border: 0;
-width: 100%;
-text-align: center;
 
+.collegamenti {
+    margin-top: 5px;
+    width: 90%;
+    height: auto;
+    
+    display: flexbox;
 }
+
 #collegamenti {
     width: 20%;
     height: 70%;
-    margin-right: 10px;
-    border: 1px solid black;
+    text-decoration: none;
+    
 }
+
 .bio {
-width: 90%;
-font-size: 100%;
-margin-top: 5px;
-height: auto;
+    width: 90%;
+    font-size: 100%;
+    margin-top: 5px;
+    height: auto;
 }
