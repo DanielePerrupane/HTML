@@ -23,13 +23,18 @@ body, html {
 .left {
     width: 28%;
     height: 100%; /* Altezza fissa per la sezione sinistra */
-    
+     
 }
 
 .right {
     width: 71%;
     height: 100%; /* Altezza fissa per far scorrere il contenuto */
-    
     overflow-y: auto; /* Abilita lo scrolling verticale */
     background-color: #ffffff; /* Colore di sfondo opzionale */
+}
+
+#fotoprofilo {
+    border-radius: 30px;
+    margin-left: 7px;
+    margin-top: 2px;
 }
