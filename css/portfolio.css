@@ -23,7 +23,19 @@ body, html {
 .left {
     width: 28%;
     height: 100%; /* Altezza fissa per la sezione sinistra */
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
      
+}
+
+#fotoprofilo {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
 }
 
 .right {
@@ -33,8 +45,26 @@ body, html {
     background-color: #ffffff; /* Colore di sfondo opzionale */
 }
 
-#fotoprofilo {
-    border-radius: 30px;
-    margin-left: 7px;
-    margin-top: 2px;
+.fotoprofilo {
+    width: 90%;
+    margin-top: 5px;
+}
+.collegamenti {
+margin-top: 5px;
+border: 0;
+width: 100%;
+text-align: center;
+
+}
+#collegamenti {
+    width: 20%;
+    height: 70%;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+.bio {
+width: 90%;
+font-size: 100%;
+margin-top: 5px;
+height: auto;
 }
