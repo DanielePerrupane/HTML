@@ -66,8 +66,13 @@ html {
     margin-top: 5px;
     width: 90%;
     height: auto;
-    
     display: flexbox;
+}
+
+.img {
+    width: 20% ;
+    height: 70%;
+    
 }
 
 #collegamenti {
