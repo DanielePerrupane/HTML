@@ -7,12 +7,44 @@ html {
     /* Assicura che il body copra l'intera altezza della finestra */
 }
 
+div {
+    border: 1px solid;
+    margin: 1;
+
+}
+
+section {
+    border: 1px solid;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/**
+    a {
+        border: 1px solid;
+        background-color: yellow;
+    }
+    
+    img {
+        border: 1px solid;
+        background-color: red;
+    }
+    
+    footer {
+        border: 1px solid black;
+        background-color: green;
+        height: 70%;
+    }
+*/
+
 .box {
     display: flex;
     height: 100%;
     /* Fa sì che la box occupi l'intera altezza */
     padding: 0;
     /* Rimosso padding errato */
+    background-color: antiquewhite;
+    position: relative;
 }
 
 .vertical-line {
@@ -32,8 +64,10 @@ html {
     /* Altezza fissa per la sezione sinistra */
     display: flex;
     flex-direction: column;
-
+    position: relative;
     align-items: center;
+    text-align: center;
+    background-color: ora;
 
 
 }
@@ -41,7 +75,7 @@ html {
 #fotoprofilo {
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+
 
 }
 
@@ -51,36 +85,41 @@ html {
     /* Altezza fissa per far scorrere il contenuto */
     overflow-y: auto;
     /* Abilita lo scrolling verticale */
-    background-color: #ffffff;
-    /* Colore di sfondo opzionale */
+    position: relative;
 }
 
 .fotoprofilo {
     width: 90%;
     margin-top: 5px;
-    
-    margin-left: 6px;
 }
+
 
 .collegamenti {
     margin-top: 5px;
     width: 90%;
-    height: auto;
-    display: flexbox;
+    height: 100%;
+    margin-bottom: 5px;
+    position: relative;
+
 }
 
 .img {
-    width: 20% ;
-    height: 70%;
-    
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+
 }
 
+
+
+
 #collegamenti {
-    width: 20%;
-    height: 70%;
+    width: 50px;
+    height: 50px;
     text-decoration: none;
-    
+
 }
+
 
 .bio {
     width: 90%;
